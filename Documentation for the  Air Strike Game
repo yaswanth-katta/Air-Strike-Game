@@ -1,0 +1,40 @@
+                                 ... Air Strike Game....
+   NOTE: Use code::blocks or  Dev c++ compilers for better understanding the code
+
+* Functions of  game:
+
+    1.void loading();
+          -This function is used to load the game
+
+    2.void Instructions();
+         -This functions is used to tell the rules of the game
+
+    3.void Delay();
+            -This function is used to delay the flow of the bullets
+
+    4.void Score(int );
+             -this function is used to print the score 
+             -note: score can update after completion of the level
+
+    5.void Edges();
+             -This functon is used to print the edges of the game(lay out)
+             -It shown like recangle shape
+
+    6.void Enemies();
+            -This is function is used to produce enemies at top of boarder
+            -In each level the enemies can place in different positions
+            -If gun is shoot the enemies then enemies will die and regenerate the enemies by usin this function
+     
+    7.void GunMoving();
+           -This functin is used to move the gun towards left to right and right to left
+           -While moving the gun, it can produce the bullets by using Bullets() function
+
+    8.void Bullets(int ,int );
+           -This function is used to generate the bullets, while moving the gun
+           -If the bullets touches the enemies, then enemies will die
+           -Bulletes are continuously generated until game end
+
+    9.void Cursor_change(int ,int );
+           -This function is used to change the cursor, one place to anothe place
+    
+    
